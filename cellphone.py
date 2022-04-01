@@ -1,6 +1,6 @@
 class Cellphone:
     def __init__(self, model) -> None:
-        self.model = model
+        self.model = model ('S21+')
         self.number = "800-919-8874"
         self.contacts = {"Bill" : "800-919-3846", "Bubba" : "800-919-8961", "Hank" : "800-919-3106", "Steve" : "800-919-4582"}
         self.messages = []

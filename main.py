@@ -1,5 +1,6 @@
 from cellphone import Cellphone
-myphone = ("Samsung S21+")
+
+myphone = Cellphone("S21+")
 print(myphone.contacts)
 
 myphone.receive_text_message("Hank", "what's going on over at your house I see a bunch of ducks")
